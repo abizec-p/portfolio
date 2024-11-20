@@ -1,0 +1,151 @@
+.back-to-portfolio {
+    background-color: rgb(192, 192, 192);
+}
+.back-to-home a{
+    display: flex;
+    text-decoration: underline;
+}
+.back-to-home div{
+    padding: 0 0.3dvw;
+}
+*{
+        box-sizing: border-box;
+
+}
+
+:root{
+    --darkBlue :    rgb(5, 24, 43);
+    --lightBlue: rgb(9, 47, 85);
+
+}
+h1,p{
+  font-family: "Nunito Sans", sans-serif;
+}
+.blog-heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Navigation*/
+.BackToWebsite{
+    display: flex;
+    align-items: center;
+    padding: 0.5dvw;
+    border-radius: 5px;
+    
+}
+.BackToWebsite:hover{
+    color: rgb(0, 110, 255);
+}
+.BackToWebsite div{
+    margin: 0 5px;
+}
+.back-to-home a{
+        text-decoration: none;
+            color: #1e1e1e;
+}
+.back-to-home a:hover{
+    color: rgb(112, 186, 255);
+}
+
+.blog-nav-items ul{
+    display: flex;
+}
+.blog-nav-items ul li{
+    list-style: none;
+        padding: 0.3dvw 0.8dvw;
+
+
+}
+.blog-nav-items ul li a{
+    text-decoration: none;
+    color: #1e1e1e;
+    transition: 3ms;
+    padding-bottom: 5px;
+}
+.blog-nav-items ul li a:hover{
+    border-bottom: 2px solid black;
+
+    
+}
+.blog-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1dvw 3dvw;
+    align-items: center;
+    background-color:rgb(230, 230, 230);
+    box-shadow: 0 0 3px rgb(168, 168, 168);
+    position: fixed;
+    width: 100%;
+    top: 0  ;
+
+}
+
+/* main blog */
+.blog-main-title{
+    margin: 0dvw 4dvw;
+    margin-top: 2dvw;
+}
+.cursive{
+    font-family: billabong;
+}
+.blog-heading h1{
+    font-size: 35px;
+    margin-top: 3dvw;
+    margin-left: 20dvw;
+
+
+    text-align: left;
+
+ 
+    
+}
+
+.blog-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -3dvw;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+.blog-container{
+    margin: 5dvw 0;
+    width: 20dvw;
+    height: 100%;
+    background-color: rgb(206, 206, 206);
+}
+.blog-container img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    
+}
+.blog-container-details{
+    padding: 10px 10px;
+}
+.blog-container-details p{
+    max-height: 40px;
+    overflow: hidden;
+}
+.blog-container-tags{
+    display: flex;
+    font-size: 12px;
+}
+.blog-container-tags p{
+    padding: 5px 10px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    background-color: #919191;
+} 
+
+.blog-footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(206, 206, 206);
+    padding: 1dvw;
+    
+}
+.blog-footer div:nth-child(2){
+    width: 20dvw;
+}

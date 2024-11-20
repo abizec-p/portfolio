@@ -1,0 +1,117 @@
+.hero {
+  background: var(--primary-gradient);
+  background-color: var(--primary-color);
+  height: 100dvh;
+  width: 100dvw;
+  color: rgb(184, 184, 184);
+}
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text h1 {
+  font-family: "Anton", sans-serif;
+  margin-top: 25dvh;
+  line-height: 23dvh;
+  font-size: 9dvw;
+  text-transform: uppercase;
+}
+.hero-text h1:hover {
+  color: rgb(230, 230, 230);
+}
+.hero-text p {
+  padding: 0px 10px;
+  text-align: center;
+}
+.hero-image img {
+  height: 25dvw;
+  padding-left: -10dvh;
+}
+.hireMe-button {
+  background-color: green;
+  border: none;
+  padding: 5px 20px;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  align-self: center;
+  text-align: center;
+}
+.hireMe-button:hover {
+  box-shadow: 0 0 20px green;
+}
+.hireMe-button a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    background: var(--primary-gradient);
+    background-color: var(--primary-color);
+    height: 170dvw;
+    color: rgb(184, 184, 184);
+  }
+  .hero-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .hero-text h1 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    padding-top: 100px;
+    line-height: 25vw;
+    font-size: 23dvw;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .hero-text h1:hover {
+    color: rgb(230, 230, 230);
+  }
+  .hero-text p {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .hireMe-button {
+    background-color: green;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-size: 26px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    align-self: center;
+    text-align: center;
+  }
+  .hireMe-button:hover {
+    box-shadow: 0 0 20px green;
+  }
+  .hireMe-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+.heroSlogan {
+  margin-top: 100px;
+  background-image: url(../assets/images/himalaya.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 90dvw;
+  height: 80dvw;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1e1e1e;
+  font-family: billabong;
+  font-size: 30px;
+}
+}

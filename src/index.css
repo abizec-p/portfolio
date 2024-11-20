@@ -1,0 +1,13 @@
+:root{
+  font-family: Helvetica;
+  overflow-x: hidden !important;
+    --primary-color : rgb(0, 0, 29);
+    --primary-gradient: radial-gradient(#232f36, rgb(18, 26, 37));
+
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  
+}

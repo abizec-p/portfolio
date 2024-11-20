@@ -1,0 +1,144 @@
+.skillsSection{
+    height: 100%;
+    background: var(--primary-gradient)
+   
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    
+}
+.skills div{
+    padding: 20px 20px;
+
+}
+.skillsText h1{
+    text-align: center;
+    margin: 10dvh 0;
+    padding: 20px 0;
+    font-size: 35px;
+    color: white;
+}
+.skillsImages img{
+    height: 50px;
+    margin: 10px 20px;
+}
+.skillsImages{
+    display: flex;
+    justify-content: center;
+}
+
+.skillsMainBody{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.skillsCard{
+    width: 25dvw;
+}
+
+.skillsContainerHeading h1{
+    background: var(--primary-gradient);
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+.skillsContainerList div{
+    padding: 10px 20px;
+}
+.skillsContainerList img{
+    height: 100px;
+}
+.skillsContainerList div{
+    color: whitesmoke;
+}
+.skillsContainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    text-align: center;
+
+}
+.skillsContainer div{
+    padding: 20px 20px;
+}
+
+@media (max-width:999px) {
+    .skillsSection{
+    height: 100%;
+   
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    
+}
+.skills div{
+    padding: 20px 20px;
+
+}
+.skillsText h1{
+    text-align: center;
+    margin: 20dvw 0;
+    padding: 20px 0;
+    font-size: 4dvw;
+}
+.skillsImages img{
+    height: 20dvw;
+    margin: 10px 20px;
+}
+.skillsImages{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90dvw;
+    justify-content: center;
+}
+.bottomLineSkills{
+    display: none;
+}
+.skillsMainBody{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.skillsCard{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.skillsContainerHeading h1{
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 0;
+    font-size: 3dvw;
+    width:30dvw
+}
+.skillsContainerList div{
+    padding: 10px 10px;
+    font-size: 5dvw;
+
+}
+.skillsContainerList img{
+    height: 30dvw;
+}
+.skillsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+
+}
+.skillsContainer div{
+    padding: 20px 20px;
+}
+    
+}

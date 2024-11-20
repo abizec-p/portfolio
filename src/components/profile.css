@@ -1,0 +1,118 @@
+.profile{
+        background: var(--primary-gradient);
+
+}
+.profileMain{
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(156, 156, 156);
+ 
+}
+
+.profileImageCircle img{
+    height: 20dvw;
+}
+.profileText{
+    width: 40dvw;
+    text-align: justify;
+}
+.profileText h1{
+
+    font-size: 40px;
+}
+.profileText h3{
+    padding: 10px 0;
+}
+.profileText p{
+    line-height: 30px;
+    text-align: justify;
+}
+.profileImage{
+    position: relative;
+
+}
+.profileImage img{
+    height: 120dvh;
+    margin-left: -42dvw;
+    margin-top: -9dvw;
+    opacity: .2;
+    
+}
+.aboutMeFlex{
+    display: flex;
+}
+.aboutMeFlex h1{
+    font-size: 40px;
+}
+.socialMedia{
+    border-radius: 15px;
+    margin-top:10px ;
+    padding: 10px 0;
+
+}
+.socialMedia a{
+    font-size: 25px;
+color: black; 
+padding: 10px;}
+
+.resume{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white;
+    color:  black   ;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+@media (max-width:999px) {
+   .profileMain{
+    height: 170dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.profileText{
+    width: 90dvw;
+    text-align: justify;
+}
+.profileText h1{
+
+    font-size: 9dvw;
+}
+.profileText h3{
+    font-size: 3dvw;
+}
+.profileText p{
+    font-size: 5dvw;
+    line-height: 7dvw;
+}
+
+.profileImage img{
+    width: 90dvw;
+    height: auto;
+    padding: 0;
+    padding-bottom: 20px;
+    position: absolute;
+    
+}
+
+
+
+.resume{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 15px 25px;
+    background-color: green;
+    color:  rgb(243, 243, 243);
+    font-weight: bold;
+    font-size: 5dvw;
+    border-radius: 15px;
+}
+    
+}

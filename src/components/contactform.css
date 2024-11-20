@@ -1,0 +1,129 @@
+.contact-form-section{
+    background: var(--primary-gradient);
+    height: 100dvh;
+}
+.contact-container{
+    margin-top: 5dvw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.contact-image {
+    background-image: url(../assets/images/contactimg.jpg);
+    height: 80dvh;
+    width: 30dvw;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.contact-form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30dvw;
+    padding: 3dvw;
+    height: 80dvh;
+
+}
+.contact-form h1{
+    font-size: 25px;
+    padding: 1dvw 0;
+}
+.contact-form input{
+    padding: 1dvw 0.5dvw;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+
+        margin: 10px 0;
+
+}
+
+.contact-form textarea{
+    font-size: 16px;
+    padding: 1dvw 0.5dvw;
+    border: none;
+    outline: none   ;
+    height: 8dvw;
+    resize: none;
+    background-color:rgb(228, 228, 228) ;
+    margin: 2dvw 0;
+}
+
+.send-button{
+    width:9dvw;
+    padding: 0.6dvw;
+    background: var(--primary-gradient);
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+@media (max-width:999px) {
+.contact-form-section{
+    background: var(--primary-gradient);
+    height: 100dvh;
+}
+.contact-container{
+    margin-top: 10dvw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.contact-image {
+    display: none;
+    background-image: url(../assets/images/contactimg.jpg);
+    height: 80dvh;
+    width: 30dvw;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.contact-form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 95dvw;
+    padding: 3dvw;
+    height: 100%;
+
+}
+.contact-form h1{
+    font-size: 45px;
+    padding: 1dvw 0;
+}
+.contact-form input{
+    padding: 1dvw 0.5dvw;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+
+        margin: 10px 0;
+
+}
+
+.contact-form textarea{
+    font-size: 25px;
+    padding: 1dvw 0.5dvw;
+    border: none;
+    outline: none   ;
+    height: 15dvw;
+    resize: none;
+    background-color:rgb(228, 228, 228) ;
+    margin: 2dvw 0;
+}
+
+.send-button{
+    width:15dvw;
+    padding: 1dvw;
+    background: var(--primary-gradient);
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+    
+}
