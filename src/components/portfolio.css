@@ -1,9 +1,12 @@
 .portfolio{
   background: var(--primary-gradient);
+  height: 100dvh;
 }
 .portfolio-works-section{
     margin-top: 5dvw;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
     gap: 1dvw   ;
 }
 .work-card{
@@ -94,4 +97,11 @@ opacity: 0;
     color: whitesmoke;
     text-decoration: none;
     border-radius: 1dvw;
-   
+    font-size: 25px;
+
+}
+.category a:hover{
+    background: var(--primary-gradient);
+}
+
+}
