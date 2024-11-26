@@ -31,10 +31,19 @@ function App() {
           }
         />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route
+          path="/portfolio"
+          element={
+            <>
+              <Portfolio />
+              
+            </>
+          }
+        />
+
         <Route path="/profile" element={<Profile />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/contactform" element={<ContactForm/>} />
+        <Route path="/contactform" element={<ContactForm />} />
       </Routes>
     </>
   );

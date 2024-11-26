@@ -1,3 +1,3 @@
 export default function Advertisement() {
-  return <>Webdev</>;
+  return <>advertisement</>;
 }

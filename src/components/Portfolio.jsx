@@ -1,14 +1,25 @@
 import Navigation from "./Navigation";
 import bottleAD from "../assets/images/waterBottle.png";
-import portfolio from "../assets/images/website-design.png"
+import portfolio from "../assets/images/website-design.png";
 import advert from "../assets/images/advert.png";
 import yak from "../assets/images/yak.png";
 import logodesign from "../assets/images/logoforaj.png";
+import Webdev from "./category/webdev";
+import Advertisement from "./category/advertisement";
 import "./portfolio.css";
 import { Link } from "react-router-dom";
+import { Route, Router, Routes } from "react-router-dom";
+import Illustration from "./category/illustration";
+import { useState } from "react";
+
+
+
 
 export default function Portfolio() {
-  
+  const [activeCategory, setActiveCategory] = useState("all");
+
+
+  const isActive = null;
   const worksData = [
     {
       category: "advertisement",
@@ -43,18 +54,41 @@ export default function Portfolio() {
       image: yak,
     },
   ];
+  const filteredWorks = worksData.filter(
+    (work) =>
+      activeCategory === "all" || work.category === activeCategory
+  );
 
   return (
     <section className="portfolio">
       <Navigation />
+
       <div className="category">
-        <Link to="/webdesign">Webdesign</Link>
-        <Link to="/advertisement">Advertisement</Link>
-        <Link to="/Illustration">Illustration</Link>
-        <Link to="/logo">Logo</Link>
+        <Link onClick={()=>setActiveCategory("all")} >All</Link>
+        <Link
+          onClick={() => setActiveCategory("webDesign")}
+        >
+          Webdesign
+        </Link>
+        <Link
+          onClick={() => setActiveCategory("advertisement")}
+        >
+          Advertisement
+        </Link>
+        <Link
+          onClick={() => setActiveCategory("Illustration")}
+        >
+          Illustration
+        </Link>
+        <Link
+          onClick={() => setActiveCategory("logo")}
+        >
+          Logo
+        </Link>
       </div>
+
       <div className="portfolio-works-section">
-        {worksData.map((data, index) => (
+        {filteredWorks.map((data, index) => (
           <div className="work-card" key={index}>
             <img src={data.image} alt="" />
             <div className="portfolio-works-details">

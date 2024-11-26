@@ -1,7 +1,11 @@
 .portfolio{
   background: var(--primary-gradient);
-  height: 100dvh;
+  height: 100%;
 }
+.category{
+    background-color: none;
+}
+
 .portfolio-works-section{
     margin-top: 5dvw;
     display: flex;
@@ -49,6 +53,7 @@ opacity: 0;
 .category a:hover{
     background: var(--primary-gradient);
 }
+
 @media (max-width:999px){
     .portfolio{
   background: var(--primary-gradient);
