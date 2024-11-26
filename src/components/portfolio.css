@@ -1,6 +1,6 @@
 .portfolio{
   background: var(--primary-gradient);
-  height: 100%;
+  height: 100dvh;
 }
 .category{
     background-color: none;
@@ -57,6 +57,7 @@ opacity: 0;
 @media (max-width:999px){
     .portfolio{
   background: var(--primary-gradient);
+  height: 100%;
 }
 .portfolio-works-section{
     display: flex;
