@@ -1,6 +1,7 @@
 .portfolio{
   background: var(--primary-gradient);
-  height: 100dvh;
+  height: 100%;
+  min-height: 100dvh;
 }
 .category{
     background-color: none;
@@ -12,8 +13,11 @@
     justify-content: center;
     flex-wrap: wrap ;
     gap: 1dvw   ;
+        box-sizing: border-box;
+
 }
 .work-card{
+    box-sizing: border-box;
    width: 20dvw;
    color: whitesmoke;
    position: relative;

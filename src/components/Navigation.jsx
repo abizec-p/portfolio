@@ -67,6 +67,11 @@ export default function Navigation() {
                   skills
                 </Link>
               </li>
+              <li>
+                <Link to="/blog" onClick={toggleClass}>
+                  Wander Space
+                </Link>
+              </li>
 
               <li>
                 <a href="/contactform" onClick={toggleClass}>
