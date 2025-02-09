@@ -74,9 +74,9 @@ export default function Navigation() {
               </li>
 
               <li>
-                <a href="/contactform" onClick={toggleClass}>
+                <Link to="/contactform" onClick={toggleClass}>
                   contact
-                </a>
+                </Link>
               </li>
             </div>
             <button

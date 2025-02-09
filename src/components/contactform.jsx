@@ -2,7 +2,6 @@ import "./contactform.css";
 import Navigation from "./Navigation";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
-import Contact from "./contact";
 
 export default function ContactForm() {
   const form = useRef();
