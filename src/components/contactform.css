@@ -11,7 +11,7 @@
 }
 .contact-image {
     background-image: url(../assets/images/contactimg.jpg);
-    height: 80dvh;
+    height: 70dvh;
     width: 30dvw;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
     flex-direction: column;
     width: 30dvw;
     padding: 3dvw;
-    height: 80dvh;
+    height: 57.5dvh;
 
 }
 .contact-form h1{

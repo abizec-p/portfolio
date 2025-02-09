@@ -1,5 +1,4 @@
 import "./contactform.css";
-import contactimage from "../assets/images/contactimg.jpg";
 import Navigation from "./Navigation";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
@@ -8,7 +7,7 @@ import Contact from "./contact";
 export default function ContactForm() {
   const form = useRef();
   const [isSent, setIsSent] = useState(false);
-  const sendEmail = (e) => {
+  const sendEmail = () => {
     ;
 
     emailjs
@@ -49,7 +48,6 @@ export default function ContactForm() {
           {isSent && <p>Your message has been sent successfully!</p>}
         </div>
       </div>
-      <Contact />
     </section>
   );
 }
