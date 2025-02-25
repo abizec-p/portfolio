@@ -10,10 +10,8 @@ import Contact from "./components/contact";
 import Work from "./components/Work";
 import Blog from "./Blog/blog";
 import Portfolio from "./components/Portfolio";
-import ContactForm from "./components/contactform";
 
 function App() {
-  const [count, setCount] = useState(0);
   
 
   return (
@@ -43,7 +41,6 @@ function App() {
 
         <Route path="/profile" element={<Profile />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/contactform" element={<ContactForm />} />
       </Routes>
     </>
   );
