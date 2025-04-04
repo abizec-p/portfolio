@@ -34,6 +34,7 @@ export function Socials() {
 
 export default function Profile() {
   return (
+    <>
     <section id="profileID" className="profile">
       <div>
         <Navigation />
@@ -66,6 +67,8 @@ export default function Profile() {
             <h1>Beyond the Screen
             </h1>
             <p>When I'm not coding or designing, you’ll likely find me with a camera in hand. Photography is my creative outlet – a way to capture the world around me and bring that same eye for detail to my work. It’s through this lens that I see the beauty in both the smallest and the biggest things, and it constantly inspires the work I do.</p>
+            <p>You can see some of my works on <a href="">Instagram</a></p>
+
             </div>
             <br />
            
@@ -80,6 +83,9 @@ export default function Profile() {
           <p></p>
         </div>
       </div>
+
     </section>
+          </>
+
   );
 }

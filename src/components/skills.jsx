@@ -86,7 +86,6 @@ function skills() {
       </div>
 
       <div className="bottomLineSkills"></div>
-      <Contact />
     </section>
   );
 }

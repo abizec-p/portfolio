@@ -73,7 +73,7 @@ export default function Navigation() {
                 </Link>
               </li>
               <li>
-                <Link to="/blog" onClick={toggleClass}>
+                <Link to="/contactform" onClick={toggleClass}>
                   Contact
                 </Link>
               </li>
