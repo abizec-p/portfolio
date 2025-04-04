@@ -46,7 +46,7 @@ export default function Profile() {
          
 
           <div className="profileText">
-            <h1>Profile</h1>
+            <h1>-Profile-</h1>
             <br />
 
             <p>
@@ -67,7 +67,7 @@ export default function Profile() {
             <h1>Beyond the Screen
             </h1>
             <p>When I'm not coding or designing, you’ll likely find me with a camera in hand. Photography is my creative outlet – a way to capture the world around me and bring that same eye for detail to my work. It’s through this lens that I see the beauty in both the smallest and the biggest things, and it constantly inspires the work I do.</p>
-            <p>You can see some of my works on <a href="">Instagram</a></p>
+            <p>You can see some of my works on <a target="_blank" href="https://www.instagram.com/pariyar_abizake/">Instagram</a></p>
 
             </div>
             <br />
@@ -78,8 +78,7 @@ export default function Profile() {
           
         </div>
         <div className="what-i-do">
-          <h1>What i do?
-          </h1>
+         
           <p></p>
         </div>
       </div>

@@ -29,7 +29,7 @@ function SocialMedia() {
       <div>
         <a
           target="_blank"
-          href="https://www.instagram.com/thejakesproductions/"
+          href="https://www.instagram.com/pariyar_abizake/"
         >
           <FaInstagramSquare />
         </a>
