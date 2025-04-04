@@ -52,7 +52,7 @@
   .hero {
     background: var(--primary-gradient);
     background-color: var(--primary-color);
-    height: 170dvw;
+    height: 180dvw;
     color: rgb(184, 184, 184);
   }
   .hero-div {
