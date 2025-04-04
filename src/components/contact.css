@@ -77,8 +77,8 @@ padding: 10px 0;
 }
 .contactHeading p{
     width: 90dvw;
-    font-size: 5dvw;
-    line-height: 7dvw;
+    font-size: 12px;
+    line-height: 18px;
 }
 .contactSocial{
 
@@ -88,7 +88,6 @@ padding: 10px 0;
 } 
 .contactSocial div{
     margin: 20px 25px;
-    font-size: 45px;
     padding: 0;
     background-color: transparent;
 
@@ -110,14 +109,14 @@ drop-shadow(0 0 10px rgba(82, 255, 82, 0.486));
 .contactHeading h1{
     margin: 30px 0;
     padding: 20px 0;
-    font-size: 7dvw;
+    font-size: 24px;
 }
 .contactTextPart li{
     display: flex;
     margin: 0 0dvw;
 list-style: none;
 padding: 20px 0;
-font-size: 5dvw;
+font-size: 20px;
 
 }
 .contactTextPart{
@@ -129,6 +128,9 @@ font-size: 5dvw;
     text-align: center;
 margin-top: -3.2dvw;
 color: #b1b1b169;
-font-size: 0.8dvw;
+font-size: 18px;
 } 
+.footer p{
+    font-size: 16px;
+}
 }

@@ -82,27 +82,31 @@ margin: 2dvw 0;
   background-color: transparent;
   padding: 0px 10px;
   width: 85dvw;
-  padding: 2dvw;
+  padding: 0 5dvw;
   border-radius: 10px;
   
 }
 .projectDetails p{
-  font-size: 14px;
+  font-size: 20px;
   text-align: justify;
+  padding: 0 5dvw ;
 }
 
 .projectDetails h1{
-  font-size: 16px;
+  font-size: 18px;
+  padding: 2dvw 5dvw ;
+
+
 
 }
 
 .project {
   display: flex;
   flex-direction: column;
-  padding: 0 5dvw;
+  padding: 0 10dvw;
 }
 .project h1 {
-  font-size: 20px;
+  font-size: 28px;
 }
 .projectTopDescription{
   padding: 1dvw 0;
@@ -110,14 +114,14 @@ margin: 2dvw 0;
 .projectTopDescription h1 {
   color: #1e1e1e;
   text-align: center;
-  font-family: "bebas neue";
-  font-size: 70px;
+  font-family: Arial black;
+  font-size: 60px;
     writing-mode: horizontal-tb;
 
 }
 .projectTopDescription p{
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
 }
 .projectCards img{
   width: 80dvw;
