@@ -218,11 +218,14 @@
 
 @media (max-width: 999px) {
   .logo {
-    padding-top: 3dvw;
-    padding-left: 3dvw;
+    padding-top: 0dvw;
+    padding-left: 0dvw;
   }
   .logo h1{
-        color: #1e1e1e;
+        color: #ffffff;
+        font-size: 35px;
+        margin-top: 50px;
+        margin-left: -130px;
 
   }
 
@@ -240,7 +243,7 @@
     display: block;
     position: absolute;
     right: 60px;
-    top: 60px;
+    top: 150px;
     background-color: transparent;
     border: none;
   }
