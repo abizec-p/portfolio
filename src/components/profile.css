@@ -3,11 +3,9 @@
 
 }
 .profileMain{
-    height: 100dvh;
+    height: 85dvh;
     width: 100dvw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     color: rgb(156, 156, 156);
  
 }
@@ -16,31 +14,46 @@
     height: 20dvw;
 }
 .profileText{
-    width: 40dvw;
+    width: 100dvw;
     text-align: justify;
+    position: absolute;
+    margin-top: -200px;
 }
 .profileText h1{
-
+ text-align: center ;
     font-size: 40px;
+    color: white;
+    
 }
 .profileText h3{
     padding: 10px 0;
 }
 .profileText p{
+    margin-top: 150px;
     line-height: 30px;
-    text-align: justify;
+    width: 800px;
+    text-align: center;
+    transform: translate(45%);
 }
-.profileImage{
-    position: relative;
+.top-img-about-us{
+ display: flex;
+ justify-content: center;
+ margin-top: 10dvh;
+
 
 }
-.profileImage img{
-    height: 120dvh;
-    margin-left: -42dvw;
-    margin-top: -9dvw;
-    opacity: .2;
-    
+.top-img-about-us img{
+    height: 400px;
+    border-radius: 20px;
+    filter: opacity(70%);
 }
+
+.resume-section{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
 .aboutMeFlex{
     display: flex;
 }
@@ -60,11 +73,20 @@ padding: 10px;}
 
 .resume{
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
     background-color: white;
     color:  black   ;
     font-weight: bold;
     border-radius: 15px;
+    transition: background 0.3s ease, transform 0.3s ease;
+
+}
+.resume:hover{
+    background: linear-gradient(45deg, #ff6a00, #f72323); /* New gradient on hover */
+    transform: scale(1.1);
+
+}
+.second-part-about{
 }
 
 @media (max-width:999px) {

@@ -28,7 +28,6 @@
 .portfolio-works-details{
     position: absolute;
     padding: 1dvw;
-    background-color: black ;
     height: 100%;
     width: 100%;
         bottom: 0;
@@ -39,9 +38,7 @@ justify-content: flex-end;
 opacity: 0;
 }
 
-.portfolio-works-details:hover{
-    opacity: 0.8;
-}
+
 .category{
     margin-top: 3dvw;
     display:flex;

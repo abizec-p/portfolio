@@ -72,6 +72,11 @@ export default function Navigation() {
                   Wander Space
                 </Link>
               </li>
+              <li>
+                <Link to="/blog" onClick={toggleClass}>
+                  Contact
+                </Link>
+              </li>
 
             
             </div>
