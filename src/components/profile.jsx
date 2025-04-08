@@ -46,6 +46,7 @@ export default function Profile() {
          
 
           <div className="profileText">
+            <div className="first-part-about">
             <h1>-Profile-</h1>
             <br />
 
@@ -56,6 +57,7 @@ export default function Profile() {
             <a href={resume} download="Resume.pdf" className="resume">
               Resume <span></span>
             </a>
+            </div>
             </div>
             <div className="second-part-about">
             <h1>My Craft
@@ -68,21 +70,17 @@ export default function Profile() {
             </h1>
             <p>When I'm not coding or designing, you’ll likely find me with a camera in hand. Photography is my creative outlet – a way to capture the world around me and bring that same eye for detail to my work. It’s through this lens that I see the beauty in both the smallest and the biggest things, and it constantly inspires the work I do.</p>
             <p>You can see some of my works on <a target="_blank" href="https://www.instagram.com/pariyar_abizake/">Instagram</a></p>
+            <h1>Why hire me?
+            </h1>
+            <p>I’m all about bringing ideas to life—whether it’s designing eye-catching visuals, building clean and responsive websites, or capturing great photos. With skills in both design and development, I can handle a project from start to finish. I focus on what works best for you, not just what’s trendy. I’m easy to work with, detail-oriented, and always down to solve creative problems. If you want someone who gets the job done and keeps it real, let’s work together.</p>
 
-            </div>
-            <br />
-           
-          
+            </div>  
           </div>
-          
-          
-        </div>
-        <div className="what-i-do">
-         
-          <p></p>
-        </div>
+          </div>
+      
       </div>
-
+      
+<Contact/>
     </section>
           </>
 

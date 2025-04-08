@@ -112,6 +112,7 @@ margin: 2dvw 0;
   padding: 1dvw 0;
 }
 .projectTopDescription h1 {
+  padding-top: 70px;
   color: #1e1e1e;
   text-align: center;
   font-family: Arial black;
@@ -121,10 +122,12 @@ margin: 2dvw 0;
 }
 .projectTopDescription p{
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
+  padding-top: 10px;
 }
 .projectCards img{
-  width: 80dvw;
+  width: 70dvw;
   padding: 10px 10px;
 }
+
 }

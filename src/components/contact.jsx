@@ -76,11 +76,12 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </section>
-      <footer className="footer">
+        <footer className="footer">
         <p>© 2024 Abishek Pariyar. All rights reserved.</p>
         <p>Website designed and developed by Abishek Pariyar.</p>
       </footer>
+      </section>
+   
     </>
   );
 }

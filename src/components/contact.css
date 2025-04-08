@@ -70,15 +70,19 @@ padding: 10px 0;
  .contact{
     padding: 20px 30px;
     display: block;
-    background-color: rgb(3, 0, 26);
+    background-color: var(--primary-gradient);
     justify-content: center;
     align-items: center;
     color: #b1b1b1;
 }
+.contactHeading h1{
+    padding: 5px 0;
+
+}
 .contactHeading p{
     width: 90dvw;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 26px;
 }
 .contactSocial{
 
@@ -87,7 +91,7 @@ padding: 10px 0;
     padding: 20px 0;
 } 
 .contactSocial div{
-    margin: 20px 25px;
+    margin: 50px 25px;
     padding: 0;
     background-color: transparent;
 
@@ -99,6 +103,9 @@ drop-shadow(0 0 10px rgba(82, 255, 82, 0.486));
   color: green;
 
 }
+.contactSocial div a{
+    font-size: 42px;
+}
 .icon{
     margin-top: 2px;
     padding: 0 10px;
@@ -107,8 +114,8 @@ drop-shadow(0 0 10px rgba(82, 255, 82, 0.486));
     width:95dvw;
 }
 .contactHeading h1{
-    margin: 30px 0;
-    padding: 20px 0;
+    margin: 20px 0;
+    padding: 5px 0;
     font-size: 24px;
 }
 .contactTextPart li{
@@ -126,11 +133,11 @@ font-size: 20px;
 }
    .footer{
     text-align: center;
-margin-top: -3.2dvw;
+margin-top: 0;
 color: #b1b1b169;
-font-size: 18px;
+font-size: 12px;
 } 
 .footer p{
-    font-size: 16px;
+    font-size: 12px;
 }
 }

@@ -34,6 +34,15 @@ export default function ContactForm() {
         <div>
           <form ref={form} onSubmit={sendEmail} className="contact-form">
             <h1>Wanna say something?</h1>
+            <div className="contactHeading">
+          <p>
+            <i>
+              "Feel free to reach out for any inquiries or collaborations—i'd
+              love to hear from you! Whether you have a project in mind or just
+              want to connect, don't hesitate to get in touch."
+            </i>
+          </p>
+        </div>
             <input type="text" name="user_name" placeholder="Name" />
             <input type="text" name="user_email" placeholder="Email" />
             <textarea

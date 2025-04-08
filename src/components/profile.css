@@ -11,9 +11,6 @@
  
 }
 
-.profileImageCircle img{
-    height: 20dvw;
-}
 .profileText{
     width: 100dvw;
     text-align: justify;
@@ -110,93 +107,86 @@ padding: 10px;}
 
 @media (max-width:999px) {
     .profile{
-        width: 100dvw;
-        height: 1000px;
-    }
-   .profileMain{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100dvw;
+        background: var(--primary-gradient);
+        height: 900px;
 
- 
 }
-
+.top-img-about-us {
+    margin-top: 10px;
+}
+.top-img-about-us img{
+    border-radius: 0;
+}
 .profileText{
     width: 100dvw;
     text-align: justify;
-
+    position: absolute;
+    margin-top: 0px;
 }
 .profileText h1{
-
-    font-size: 38px;
-    margin-top: 300px;
-
-}
-.profileText h3{
-    font-size: 24px;
-}
-.profileText p{
-    font-size: 24px;
-    line-height: 33px;
-    transform: translate(10%);
-    margin-top: 200px;
-}
-
-.profileImage img{
-    width: 90dvw;
-    height: auto;
-    padding: 0;
-    padding-bottom: 20px;
-    position: absolute;
-    top: -100px
+ text-align: center ;
+    font-size: 40px;
+    color: white;
     
 }
-
-
-
+.profileText h3{
+    padding: 10px 0;
+}
+.profileText p{
+    margin-top: 150px;
+    line-height: 30px;
+    width: 800px;
+    text-align: center;
+    transform: translate(45%);
+}
+.first-part-about h1{
+    position: absolute;
+    top: -200px;
+    left: 400px;
+}
+.first-part-about p{
+    margin-top: 50px;
+    line-height: 26px;
+    width: 800px;
+    text-align: center;
+    transform: translate(12%);
+    font-size: 20px;
+}
 .resume{
     text-decoration: none;
-    margin-top: 10px;
-    padding: 15px 25px;
-    background-color: green;
-    color:  rgb(243, 243, 243);
+    padding: 10px 30px;
+    background-color: white;
+    color:  black   ;
     font-weight: bold;
-    font-size: 2dvw;
-    border-radius: 20px;
+    border-radius: 15px;
+    transition: background 0.3s ease, transform 0.3s ease;
+
 }
-.top-img-about-us{
-    display: flex;
-    justify-content: center;
-    margin-top: 10dvh;
-    position: absolute;
-   
-   
-   }
-   .top-img-about-us img{
-       height: 400px;
-       border-radius: 0px;
-       filter: opacity(70%);
-       position: absolute;
-       top: -1050px;
-       width: 100dvw;
-   }
-   .second-part-about h1{
+.resume:hover{
+    background: linear-gradient(45deg, #ff6a00, #f72323); /* New gradient on hover */
+    transform: scale(1.1);
+
+}
+
+.second-part-about{
+    display: block;
+}
+.second-part-about h1{
     color: #2e2e2e;
     margin-bottom: 0;
-    padding: 20px 0;
+    padding: 20px;
     text-align: left;
     margin-left: 50px;
     margin-top: 100px;
 
 }
 .second-part-about p{
+    font-size: 18px;
+    line-height: 24px;
     margin: 0;
-    text-align: justify;
-    margin-bottom: 100px;
-    margin-left: -35px;
-    color: #2e2e2e;
-    width: 90dvw;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: -289px;
 }
+
 }
