@@ -78,10 +78,11 @@ padding: 10px 0;
 .contactHeading h1{
     padding: 5px 0;
 
+
 }
 .contactHeading p{
     width: 90dvw;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 26px;
 }
 .contactSocial{
@@ -116,7 +117,7 @@ drop-shadow(0 0 10px rgba(82, 255, 82, 0.486));
 .contactHeading h1{
     margin: 20px 0;
     padding: 5px 0;
-    font-size: 12px;
+    font-size: 17px;
 }
 .contactTextPart li{
     display: flex;

@@ -80,7 +80,6 @@ export default function Profile() {
       
       </div>
       
-<Contact/>
     </section>
           </>
 
