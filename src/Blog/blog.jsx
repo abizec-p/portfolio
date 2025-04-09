@@ -6,8 +6,8 @@ function  blog  (){
     <>
     <div>IM currently working on this project</div>
     <button>
-      <Link to="/home"
-      back to home</button>
+      <Link to="/home">
+      back to home</Link></button>
     </>
   )
 }
