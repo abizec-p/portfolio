@@ -28,7 +28,7 @@ export default function Navigation() {
       <div className="nav-bar">
         <div className="logo">
           <Link to="/">
-            <h1>JAKE</h1>
+            <h1>Abizec</h1>
           </Link>
           <span className="home-icon">
             <button
@@ -67,11 +67,7 @@ export default function Navigation() {
                   skills
                 </Link>
               </li>
-              <li>
-                <Link to="/blog" onClick={toggleClass}>
-                  Wander Space
-                </Link>
-              </li>
+             
               <li>
                 <Link to="/contactform" onClick={toggleClass}>
                   Contact

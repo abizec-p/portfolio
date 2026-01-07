@@ -7,49 +7,86 @@
  display: flex;
  justify-content: center;
  align-items: center;
+ height: 75vh;
 
 }
 .contact-image {
-    background-image: url(../assets/images/contactimg.jpg);
-    height: 70dvh;
+    background-image: url(../assets/images/bg-contact.jpg);
+    height: 80vh;
     width: 30dvw;
     background-size: cover;
     background-repeat: no-repeat;
 
 }
+.contact-image span{
+padding-right: 10px;  
+}
+.contact-image h1{
+    padding: 0vw 2vw;
+    margin-top: 40vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-image h3{
+    margin-left: 2vw;
+    margin-bottom: 1vh;
+    font-weight: 500;
+    font-family:  Helvetica, sans-serif;
+    font-size: 18px;
+}
+.contact-image p{
+    margin-left: 2vw;
+    padding: 1vw 0;
+    font-size: 18px;
+
+
+}
+.contact-social{
+    color: black;
+    background-color: #2e2e2e;
+    width:70%;
+    margin-left: 2vw;
+    border-radius: 10px;
+    margin-top: 2vw;
+}
+.form-part-contact{
+    
+}
 .contact-form{
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 30dvw;
-    padding: 3dvw;
-    height: 57.5dvh;
+    width: 40dvw;
+    height: 80vh;
 
 }
 .contact-form h1{
     font-size: 25px;
-    padding: 1dvw 0;
+    padding: 1dvw 3vw;
+    padding-top: 2vw;
+}
+.contact-form p{
+    padding: 0vw 3vw;
 }
 .contact-form input{
-    padding: 1dvw 0.5dvw;
+    padding: 1dvw 0vw;
     outline: none;
     border: none;
     font-size: 16px;
     border-bottom: 1px solid rgb(180, 180, 180);
 
-        margin: 10px 0;
+        margin: 10px 3vw;
 
 }
 
 .contact-form textarea{
     font-size: 16px;
-    padding: 1dvw 0.5dvw;
+    padding: 1dvw 2vw;
     border: none;
     outline: none   ;
     height: 8dvw;
     resize: none;
     background-color:rgb(228, 228, 228) ;
-    margin: 2dvw 0;
+    margin: 2dvw 3vw;
 }
 
 .send-button{
@@ -59,7 +96,11 @@
     color: white;
     font-size: 17px;
     border: none;
+    margin: 0 3vw;
 }
+
+
+
 
 
 @media (max-width:999px) {

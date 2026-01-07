@@ -2,6 +2,9 @@ import "./contactform.css";
 import Navigation from "./Navigation";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
+import SocialMedia from "./socialmedia";
+import { IoCall,IoMail } from "react-icons/io5";
+
 
 export default function ContactForm() {
   const form = useRef();
@@ -30,8 +33,18 @@ export default function ContactForm() {
     <section className="contact-form-section">
       <Navigation />
       <div className="contact-container">
-        <div className="contact-image"></div>
-        <div>
+        <div className="contact-image">
+          <h1>Contact us</h1>
+          <p>If you like my works or have any question give me a call or just email me.</p>
+          <h3><span><IoCall/></span>+1(437)6651393 </h3>
+          
+          <h3><span><IoMail/></span> pariyarabishek60@gmail.com</h3>
+          <div className="contact-social">
+          <SocialMedia/>
+</div>
+
+        </div>
+        <div className="form-part-contact"> 
           <form ref={form} onSubmit={sendEmail} className="contact-form">
             <h1>Wanna say something?</h1>
             <div className="contactHeading">

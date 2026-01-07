@@ -19,7 +19,7 @@ export default function Hero() {
         </div>
         <div className="hire-me-button-div">
           <button className="hireMe-button">
-            <a href="#contactID">Contact me</a>
+            <Link to="/contactForm">Contact me</Link>
           </button>
          </div>
          <div>
