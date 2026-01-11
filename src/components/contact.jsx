@@ -15,6 +15,7 @@ export default function Contact() {
   return (
     <>
       <section id="contactID" className="contact">
+        <div className="contact-flex">
         <div className="contactHeading">
           <h1>Talk to me? </h1>
           <p>
@@ -75,6 +76,7 @@ export default function Contact() {
               </a>
             </div>
           </div>
+        </div>
         </div>
         <footer className="footer">
         <p>© 2024 Abishek Pariyar. All rights reserved.</p>

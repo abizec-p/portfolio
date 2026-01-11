@@ -77,17 +77,17 @@
   .hero-text p {
     padding: 20px 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .hireMe-button {
     background-color: green;
     border: none;
-    padding: 10px 30px;
+    padding: 20px 40px;
     color: white;
-    font-size: 26px;
-    border-radius: 10px;
-    margin: 10px 0px;
+    font-size: 45px;
+    border-radius: 30px;
+    margin: 20px 0px;
     align-self: center;
     text-align: center;
   }

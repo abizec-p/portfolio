@@ -1,8 +1,9 @@
-.contact{
-    background: var(--primary-gradient);
+.whitecontact{
+    margin-top: 10vh;
+    background: white;
     justify-content: center;
     align-items: center;
-    color: #b1b1b1;
+    color: #2e2e2e;
         padding: 5dvw 15dvw;
 }
 .contact-flex{
@@ -11,36 +12,36 @@
         flex-wrap: wrap;
 
 }
-.footer{
+.whitefooter{
     text-align: center;
 margin-top: 2dvw;
-color: #b1b1b169;
+color: #2e2e2e;
 font-size: 0.8dvw;
 }
 
 
-.contactSocial{
+.whitecontactSocial{
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.contactSocial div{
+.whitecontactSocial div{
     margin: 20px 20px;
     font-size: 25px;
     padding: 0;
     background-color: transparent;
 
 }
-.contactSocial div:hover{
+.whitecontactSocial div:hover{
 filter: drop-shadow(0 0 10px rgb(0, 143, 0))
 drop-shadow(0 0 10px rgba(82, 255, 82, 0.486));   
   transition: 0.3s;
   color: green;
 
 }
-.contactSocial div a{
+.whitecontactSocial div a{
     text-decoration: none;
-    color: rgb(211, 211, 211);
+    color: #2e2e2e;
 }
 .icon{
     margin-top: 2px;
@@ -72,47 +73,46 @@ padding: 10px 0;
 
 
 @media (max-width:999px) {
- .contact{
+ .whitecontact{
     padding: 20px 10vw;
     display: block;
-    background-color: var(--primary-gradient);
+    background-color: white;
     justify-content: center;
     align-items: center;
-    color: #b1b1b1;
+    color: #2e2e2e;
 }
-.contactHeading h1{
-    padding: 5px 0;
-    font-family: Helvetica, sans-serif;
-
-
-}
-.contactHeading p{
-    width: 85dvw;
+.whitecontactHeading h1{
+    padding: 2vh 0;
     font-size: 50px;
-    line-height: 56px;
-    font-size: 40px !important;
+
+
 }
-.contactSocial{
+.whitecontactHeading p{
+    width: 80dvw;
+    line-height: 46px;
+    font-size: 40px;
+}
+.whitecontactSocial{
 
     display: flex;
     justify-content: start;
     padding: 20px 0;
 } 
-.contactSocial div{
+.whitecontactSocial div{
     margin: 50px 25px;
     padding: 0;
     background-color: transparent;
 
 }
-.contactSocial div:hover{
+.whitecontactSocial div:hover{
 filter: drop-shadow(0 0 10px rgb(0, 143, 0))
 drop-shadow(0 0 10px rgba(82, 255, 82, 0.486));   
   transition: 0.3s;
   color: green;
 
 }
-.contactSocial div a{
-    font-size: 50px;
+.whitecontactSocial div a{
+    font-size: 42px;
 }
 .icon{
     margin-top: 2px;
@@ -121,20 +121,20 @@ drop-shadow(0 0 10px rgba(82, 255, 82, 0.486));
 .contactHeading{
     width:95dvw;
 }
-.contactHeading h1{
+.whitecontactHeading h1{
     margin: 20px 0;
     padding: 5px 0;
-    font-size: 57px !important;
+    font-size: 47px;
 }
-.contactTextPart li{
+.whitecontactTextPart li{
     display: flex;
-    margin: 2vh 0 !important;
+    margin: 0 0dvw;
 list-style: none;
 padding: 20px 0;
-font-size: 40px;    
+font-size: 40px;
 
 }
-.contactTextPart{
+.whitecontactTextPart{
     display: block;
     padding-top: 30px;
 
@@ -144,7 +144,7 @@ font-size: 40px;
 margin-top: 0;
 color: #b1b1b169;
 } 
-.footer p{
-    font-size: 25px;
+.whitefooter p{
+    font-size: 35px;
 }
 }

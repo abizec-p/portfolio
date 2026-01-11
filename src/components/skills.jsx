@@ -10,6 +10,7 @@ import premiere from "../assets/icons/premiere pro.png";
 import Figma from "../assets/icons/figma.png";
 import Navigation from "./Navigation";
 import Contact from "./contact";
+import Whitefooter from "./Whitefooter";
 
 function skills() {
   const skillItems = [
@@ -111,6 +112,7 @@ function skills() {
       </div>
 
       <div className="bottomLineSkills"></div>
+      <Whitefooter/>
     </section>
   );
 }

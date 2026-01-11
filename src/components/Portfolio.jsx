@@ -11,13 +11,23 @@ import "./portfolio.css";
 import { Link } from "react-router-dom";
 import { Route, Router, Routes } from "react-router-dom";
 import Illustration from "./category/illustration";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import Whitefooter from "./Whitefooter.jsx";
 
 export default function Portfolio() {
   const [activeCategory, setActiveCategory] = useState("all");
   const [selectedCard, setSelectedCard] = useState(null);
+  const isMobile = window.innerWidth <= 999;
+
+  useEffect(()=>{
+    document.body.style.overflow = selectedCard ? "hidden":"";
+    document.body.style.position = selectedCard ? "fixed":"";
+    return() => {
+      document.body.style.overflow ="";
+    };
+  }, [selectedCard]);
 
   const isActive = null;
   const worksData = [
@@ -90,9 +100,12 @@ export default function Portfolio() {
   );
   const handleCardClick = (data) => {
     setSelectedCard(data);
+    document.body.style.overflow ="hidden"
   };
   const closePopUp = () => {
     setSelectedCard(null);
+        document.body.style.overflow =""
+
   };
 
   return (
@@ -115,7 +128,7 @@ export default function Portfolio() {
         {filteredWorks.map((data, index) => (
           <motion.div
             onClick={() => handleCardClick(data)}
-            whileHover={{ scale: 1.05 }}
+            whileHover={ isMobile? {}:{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="work-card"
             key={data.id}
@@ -145,7 +158,7 @@ export default function Portfolio() {
           >
             <div>
               <img className="popup-image" src={selectedCard.image}></img>
-              <button onClick={closePopUp}>X</button>
+              <button className="close-button" onClick={closePopUp}>X</button>
             </div>
             <div className="popup-details">
               <h2>{selectedCard.title}</h2>
@@ -165,6 +178,9 @@ export default function Portfolio() {
           </motion.div>
         </motion.div>
       )}
+      <div>
+        <Whitefooter/>
+      </div>
     </section>
   );
 }

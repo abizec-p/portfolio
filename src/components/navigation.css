@@ -231,6 +231,7 @@
 
   .top-nav {
     display: flex;
+    z-index: 1000;
   }
   .nav-bar {
     display: flex;
@@ -260,6 +261,7 @@
     transform: rotate(45deg);
   }
   .hamburger {
+    z-index: 999;
     display: block;
     position: absolute;
     top: 50px;
@@ -274,6 +276,7 @@
     width: 50px;
     background-color: white;
     margin: 10px 0;
+    z-index: 999;
   }
   .hamburger div:nth-child(1) {
     height: 2px;
