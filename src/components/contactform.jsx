@@ -75,10 +75,12 @@ export default function ContactForm() {
               Send
             </button>
           </form>
-          <Whitefooter />
           {isSent && <p>Your message has been sent successfully!</p>}
         </div>
+
       </div>
+                        <Whitefooter />
+
     </section>
   );
 }

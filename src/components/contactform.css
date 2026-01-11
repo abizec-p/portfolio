@@ -31,12 +31,12 @@ padding-right: 10px;
     margin-bottom: 1vh;
     font-weight: 500;
     font-family:  Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 .contact-image p{
-    margin-left: 2vw;
     padding: 1vw 0;
-    font-size: 18npx;
+    font-size: 16px;
+    margin: 0 2vw;
 
 
 }
