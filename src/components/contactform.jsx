@@ -35,7 +35,7 @@ export default function ContactForm() {
         <div className="contact-image">
           <h1>Contact us</h1>
           <p>
-            If you like my works or have any question give me a call or just
+            If you like my works or have any question, give me a call or just
             email me.
           </p>
           <h3>
